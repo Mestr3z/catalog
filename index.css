@@ -301,9 +301,7 @@
     padding: 0;
 }
 
-.left__menu{
-    display: block;
-}
+
 
 .text__card_img {
     width: 19px;
@@ -459,6 +457,7 @@
 .gazobeton {
     background-color: #FFF;
     max-width: 230px;
+    order: -1;
 
 
 }
@@ -489,6 +488,8 @@
 
 .left-menu {
     max-width: 230px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-menu_text {
@@ -566,6 +567,7 @@
 
 .row{
     width: 230px;
+    order: -1;
 }
 
 .container {
