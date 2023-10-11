@@ -1,0 +1,8 @@
+.details__link {
+    padding-left: 24px;
+    padding-right: 7px;
+    padding-top:7px;
+    display: flex;
+    flex-direction: row;
+    max-height: 10px;
+}

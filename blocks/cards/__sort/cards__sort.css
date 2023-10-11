@@ -1,0 +1,5 @@
+.cards__sort {
+    display: flex;
+    align-items: center;
+    margin-bottom:24px;
+}

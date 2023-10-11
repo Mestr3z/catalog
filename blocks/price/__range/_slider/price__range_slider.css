@@ -1,0 +1,20 @@
+.price__range_slider{
+    background-color:#F9AF19;
+    margin:0;
+    margin-top:23px;
+    margin-bottom:25px;
+    -webkit-appearance: none;
+    width: 182px;
+    height: 3px;
+}
+
+.price__range_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 10px;
+    background-color: #F9AF19;;
+    border-radius: 50%;
+  }
+
+  

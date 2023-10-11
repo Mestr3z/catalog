@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="uniblock" />
+    <base href="#" />
+    <link rel=”canonical” href=”#”>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./libs/nouislider.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="images/x-icon" href="./images/favicon1.ico">
+    <title>Uniport</title>
+</head>
+
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <div class="header__content">
+                <a class="header__logo_link">
+                    <img class="header__logo" src="images/logo.svg" alt="логотип компании">
+                    <img class="header__logo_name" src="./images/logo 2.svg" alt="изображение часов">
+                </a>
+                <div class="flexx">
+                <div class="header__menu">
+                    <img class="logos" src="./images/time.svg" alt="изображение часов">
+                    <div class="header__menu_works">
+                        <p class="text">Время работы</p>
+                        <p class="text">Круглосуточно</p>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <img class="logos" src="./images/location.svg" alt="изображение метки локации">
+                    <div class="header__menu_works">
+                        <p class="text">Адрес</p>
+                        <p class="text">Санкт-Петербург</p>
+                    </div>
+                </div>
+                <div class="header__icons">
+                    <img class="header__icons_img icn" src="./images/message.svg" alt="иконка почты">
+                    <img class="header__icons_img" src="./images/telegram.svg" alt="логотип telegram">
+                    <img class="header__icons_img" src="./images/whatsapp.svg" alt="логотип whatsapp">
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:89219985985" class="header__contacts_number">+7 (921) 998-59-85</a>
+                    <a href="mailto:info@uniblock.ru" class="header__contacts_mail">info@uniblock.ru</a>
+                </div>
+                <a href="#" class="header__cart">
+                    <img class="header__cart_logo" src="./images/shopping-cart.svg"
+                        alt="изображение продуктовой корзины">
+                    <div class="header__cart_list">
+                        <p class="header__cart_list_name">Корзина</p>
+                        <p class="header__cart_list_items">1<span class="header__cart_list_items_text"> товар</span></p>
+                        <p class="header__cart_list_cost">7 650 <span
+                                class="header__cart_list_cost_currency">руб.</span></p>
+                    </div>
+                </a>
+                <div class="header__burger" onclick="toggleMenu()">
+                    <div class="header__bar bar"></div>
+                    <div class="header__bar bar"></div>
+                    <div class="header__bar bar"></div>
+                </div>
+            </div>
+        </header>
+  
+            <section class="menu">
+                <div class="menu__list">
+                    <div class="menu__item">
+                        <p class="menu__text menu__first-list">ПРОДУКЦИЯ <img class="menu__down" src="./images/down.png"
+                                alt="иконка развертывания списка"> </p>
+                        <ul class="submenu submenu__first-list">
+                            <li class="submenu__li">Газобетон D-300</li>
+                            <li class="submenu__li">Газобетон D-400</li>
+                            <li class="submenu__li">Газобетон D-500</li>
+                            <li class="submenu__li">Газобетон D-600</li>
+                            <li class="submenu__li">Газобетон D-700</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="menu__link">КАЛЬКУЛЯТОР</a>
+                    <a href="#" class="menu__link">ЦЕНЫ</a>
+                    <a href="#" class="menu__link">ДОСТАВКА И ОПЛАТА</a>
+                    <a href="#" class="menu__link">БЛОГ</a>
+                    <div class="menu__item">
+                        <p class="menu__text menu__second-list">О КОМПАНИИ <img class="menu__down"
+                                src="./images/down.png" alt="иконка развертывания списка"></p>
+                        <ul class="submenu submenu__second-list">
+                            <li class="submenu__li">О производстве</li>
+                            <li class="submenu__li">Реквизиты</li>
+                            <li class="submenu__li">Партнеры</li>
+                            <li class="submenu__li">Документы</li>
+                            <li class="submenu__li">Вакансии</li>
+                            <li class="submenu__li">Сотрудничество</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="menu__link">ЧАСТЫЕ ВОПРОСЫ</a>
+                    <a href="#" class="menu__link">КОНТАКТЫ</a>
+                    <button class="menu__button" id="menuButton">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+            </section>
+            <div class="fixed-menu">
+                <a href="#" class="menu__calculator">
+                    <img class="menu__calculator_img" src="./images/calculator.svg" alt="Калькулятор газобетона">
+                    <div class="menu__calculator_container">
+                    <p class="menu__calculator_container_text" >Калькулятор</p>
+                    <p class="menu__calculator_container_text" >Газобетона</p>
+                </div>
+            </a>
+                <div class="menu-item">
+                    <a href="#" class="menu__cart">
+                        <img class="menu__cart_logo" src="./images/shopping-cart.svg"
+                            alt="изображение продуктовой корзины">
+                        <div class="menu__cart_list">
+                            <p class="menu__cart_list_items">1<span class="header__cart_list_items_text"> товар</span></p>
+                            <p class="menu__cart_list_cost">7 650 <span
+                                    class="menu__cart_list_cost_currency">руб.</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+            <section class="mainpage">
+                <section class="catalog">
+                <section class="headers">
+                    <p class="headers__name">Каталог газобетона</p>
+                    <div class="headers__choose">
+                        <a href="#" class="headers__choose_main">Главная</a>
+                        <p class="headers__choose_slash">/</p>
+                        <a href="#" class="headers__choose_inactive">Каталог</a>
+                    </div>
+                </section>
+
+
+                <div class="menu__flex">
+                    <section class="left-menu">
+                        <div class="gazobeton">
+                            <a class="gazobeton__link" href="#">
+                                <p class="gazobeton__text">Газобетон D-300</p>
+                            </a>
+                            <a class="gazobeton__link" href="#">
+                                <p class="gazobeton__text">Газобетон D-400</p>
+                            </a>
+                            <a class="gazobeton__link" href="#">
+                                <p class="gazobeton__text">Газобетон D-500</p>
+                            </a>
+                            <a class="gazobeton__link" href="#">
+                                <p class="gazobeton__text">Газобетон D-600</p>
+                            </a>
+                            <a class="gazobeton__link" href="#">
+                                <p class="gazobeton__text">Газобетон D-700</p>
+                            </a>
+                        </div>
+                        <p class="left-menu_text">Подбор по параметрам</p>
+                        <div class="row">
+                        <div class="adjust">
+                            <button class="adjust__price" id="toggle-button">Цена<img
+                                    class="adjust__price_img" src="./images/dow.svg"
+                                    alt="изображение стрелки вниз"></button>
+                            <div class="adjust__price_container" id="price_container">
+                                <div class="adjust__price_inputs">
+                                    <input type="number" class="adjust__price_input" placeholder="0" min="600"
+                                        max="8570" value="600" id="input-0">
+                                    <p class="adjust__price_container_dash">-</p>
+                                    <input type="number" class="adjust__price_input" placeholder="0" min="600"
+                                        max="8570" value="8570" id="input-1">
+                                </div>
+                                <div class="filter-price__slider" id="range-slider" ></div>
+                            </div>
+                        </div>
+                        <div class="density">
+                            <button class="density__button" id="density-toggle-button"
+                                onclick="toggleDensityBlock()">Плотность <img class="density__img"
+                                    src="./images/dow.svg" alt="изображение стрелки вниз"></button>
+                            <div class="price__checkboxes" id="density_block">
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-3000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-4000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-5000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-6000
+                                </label>
+                            </div>
+                        </div>
+                        <div class="size">
+                            <button class="size__button" id="size-toggle-button" onclick="toggleSizeBlock()">Размер <img
+                                    class="density__img" src="./images/dow.svg" alt="изображение стрелки вниз"></button>
+                            <div class="price__checkboxes" id="size_block">
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-3000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-4000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-5000
+                                </label>
+                                <label class="price__checkboxes_label">
+                                    <input class="price__checkboxes_label_input" type="checkbox" value="D-3000">
+                                    <span class="price__checkboxes_label_checkmark"></span>
+                                    D-6000
+                                </label>
+                            </div>
+                        </div>
+                        </div>
+                        <a href="#" class="bestprice__link">
+                            <div class="bestprice">
+                            <p class="bestprice__first-title">ЛУЧШАЯ ЦЕНА</p>
+                            <p class="bestprice__second-title">на газобетон</p>
+                            <img class="bestprice__img" src="./images/bestprice.png">
+                            </div>
+                        </a>
+                    </section>
+                    <section class="cards">
+                        <div class="hide">
+                            <div class="flex">
+                            <div class="cards__sort-btns">
+                                <div class="card__menu-width">
+                                <button class="cards__sort-btns_menu">
+                                    <div class="burger">
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                    </div>
+                                
+                                    <p class="cards__sort-btns_menu_text">Меню</p>
+                                </button>
+                            </div>
+                                <div class="cards__sort-btns_container">
+                                    <div class="cards__menu_filter-width">
+                                <button class="filter">
+                                    <img src="./images/filter.svg" alt="иконка фильтрации карт">
+                                    <p class="cards__sort-btns_menu_text">Фильтр</p>
+                                </button>
+                            </div>
+                                <button class="price-btn">
+                                    <p class="price__btn_text">По цене</p> 
+                                    <img class="price__btn_image" src="./images/sort.svg" alt="изображение стрелочки сортировки">
+                                </button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="cards__sort">
+                            <p class="cards__sort_text">Сортировать:</p>
+                            <div class="cards__sort_block">
+                                <button class="cards__sort_block_btn">
+                                    <p class="cards__sort_block_text">По цене</p> <img class="cards__sort_block-img"
+                                        src="./images/sort.svg" alt="изображение стрелочки сортировки">
+                                </button>
+                                <button class="cards__sort_block_btn">
+                                    <p class="cards__sort_block_text"> По названию </p><img
+                                        class="cards__sort_block-img" src="./images/sort.svg"
+                                        alt="изображение стрелочки сортировки">
+                                </button>
+                            </div>
+                            <div class="cards__sort_order">
+                                <button class="cards__sort_order_button-first"><img class="cards__sort_order_button_img"
+                                        src="./images/sort-btn1.svg" alt="иконка смены порядка блоков"></button>
+                                <button class="cards__sort_order_button-second"><img
+                                        class="cards__sort_order_button_img" src="./images/sort-btn2.svg"
+                                        alt="иконка смены порядка блоков"></button>
+                            </div>
+                        </div>
+                        <section class="card">
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div> 
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton" >
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div> 
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__container">
+                                <a href="#" class="card__name">
+                                    <p class="card__name_p">Блоки из газобетона D-300 300*250*625</p>
+                                </a>
+                                <a href="#" class="card__image-link"> <img class="card__image" src="./images/block.png"
+                                        alt="блок из газобетона">
+                                </a>
+                                <div class="product__price">
+                                    <div class="product__price_header">
+                                        <div class="product__price_block">
+                                            <p class="product__price_block-amount">Цена за:</p>
+                                            <div class="product__price_block-buttons">
+                                                <button class="product__price_button">м³</button>
+                                                <button class="product__price_button-number">шт</button>
+                                            </div>
+                                        </div>
+                                        <div class="product__price_details">
+                                            <div class="product__price_details-amount">
+                                                <p class="product__price_details-cost">7 390</p>
+                                                <p class="product__price_details-ruble"></p>
+                                                <div class="product__price_details-buttons">
+                                                    <button class="button__minus" id="buttonplus">-</button>
+                                                    <span class="button__number">1</span>
+                                                    <button class="button__plus" id="buttonminus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <div class="details__link">
+                                                    <p class="details__text">За поддон:
+                                                    <p class="details__text-price">7 390₽</p>
+                                                    </p>
+                                                </div>
+                                                <p class="details__red-text">Продается кратно поддонам</p>
+                                            </div>
+                                            <div class="product__price_line-buttons">
+                                                <button class="button__gray">
+                                                    <p class="text__gray">В КОРЗИНУ</p>
+                                                </button>
+                                                <button class="button__black productBlackButton">
+                                                    <p class="text__black">В 1 КЛИК</p>
+                                                </button>
+                                            </div>
+                                            <button class="button__yellow productYellowButton">
+                                                <p class="text__yellow">ЗАКАЗАТЬ</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button class="buttons__one">1</button>
+                                <button class="buttons__one">2</button>
+                                <button class="buttons__one">3</button>
+                                <button class="buttons__one">4</button>
+                            </div>
+                        </div>
+                    </section>
+            </section>
+        <footer class="footer">
+            <section class="info">
+                <div class="column__product">
+                    <h3 class="column__header">Продукция <img class="footer__down"
+                        src="./images/down.png" alt="иконка развертывания списка"></h3>
+                    <ul class="column__products">
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Газобетон D-300</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Газобетон D-300</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Газобетон D-300</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Газобетон D-300</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Газобетон D-300</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">U-блоки</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Армированые перемычки</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Некондиция</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Инструменты</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="column__about">
+                    <h3 class="column__header">О компании <img class="footer__down"
+                        src="./images/down.png" alt="иконка развертывания списка"></h3>
+                    <ul class="column__products">
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">О производстве</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Реквизиты</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Партнеры</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Документы</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Вакансии</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Сотрудничество</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="column__info">
+                    <h3 class="column__header">Полезная информация <img class="footer__down"
+                        src="./images/down.png" alt="иконка развертывания списка"></h3>
+                    <ul class="column__products">
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Калькулятор</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Цены</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Доставка и оплата</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Блог</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Новости</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Частые вопросы</li>
+                        </a>
+                        <a href="#" class="footer__link">
+                            <li class="column__products_list">Контакты</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="column__company">
+                    <a href="#" class="column__company_logos">
+                        <img src="./images/logo.svg" alt="логотип компании" class="column__company_image">
+                        <img src="./images/logo 2.svg" alt="название компании"
+                            class="column__company_secondimage footer-image2">
+                    </a>
+                    <div class="column__company_contacts">
+                        <div class="column__company_contacts-left">
+                            <p class="column__company_text">Телефон:</p>
+                            <p class="column__company_text">Почта:</p>
+                            <p class="column__company_text">Режим:</p>
+                            <p class="column__company_text">Адрес:</p>
+                        </div>
+                        <div class="column__company_contacts-right">
+                            <a href="tel:89219985985" class="column__company_link">+7 (921) 998-59-85</a>
+                            <a href="mailto:info@uniblock.ru" class="column__company_link">info@uniblock.ru</a>
+                            <p class="column__company_textright">Круглосуточно</p>
+                            <p class="column__company_textright">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__credits">
+                <div class="footer__credits_text">
+                    <p class="footer__credits_text-save">© 2023. Все права защищены.</p>
+                    <a href="#" class="footer__credits_text-personaldata">Политика обработки персональных данных</a>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="./libs/script.js"></script>
+    <script src="./libs/nouislider.min.js"></script>
+    <script src="./libs/nouislider.min.js"></script>
+</body>

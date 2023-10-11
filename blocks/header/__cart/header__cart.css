@@ -1,0 +1,10 @@
+.header__cart {
+    background-color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 18px 27px 24px 20px;
+    box-sizing: border-box;
+    margin-left: 39px;
+}

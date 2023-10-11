@@ -1,0 +1,6 @@
+.price__checkboxes {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 0px 26px 15px 22px;
+}

@@ -1,0 +1,4 @@
+.column__company_contacts {
+    display: flex;
+    justify-content: space-between
+}

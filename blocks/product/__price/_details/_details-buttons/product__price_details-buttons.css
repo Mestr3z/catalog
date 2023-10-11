@@ -1,0 +1,11 @@
+.product__price_details-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid #C1C1C1;
+    width: 76px;
+    height: 22px;
+    margin-left:21px;
+    margin-right:1px;
+}

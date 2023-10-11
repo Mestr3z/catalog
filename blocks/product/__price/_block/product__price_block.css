@@ -1,0 +1,7 @@
+.product__price_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-left:24px;
+}

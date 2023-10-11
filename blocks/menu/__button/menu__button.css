@@ -1,0 +1,23 @@
+.menu__button {
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    padding: 11px 25px 10px;
+    margin-left: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #000000;
+    transition: 0.3s linear;
+}
+
+.menu__button:hover{
+    background-color: #B37002;
+}

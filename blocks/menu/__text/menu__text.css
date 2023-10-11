@@ -1,0 +1,12 @@
+.menu__text {
+    display: flex;
+    align-items: center;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0;
+}
+

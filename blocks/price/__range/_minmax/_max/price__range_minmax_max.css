@@ -1,0 +1,8 @@
+.price__max-price {
+    width: 68px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #C1C1C1;
+    background-color: #FFF;
+    outline: none;
+}

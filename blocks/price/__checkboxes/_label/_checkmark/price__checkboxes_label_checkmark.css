@@ -1,0 +1,13 @@
+.price__checkboxes_label_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #C1C1C1;
+    background: #FFF;
+}
+
+.price__checkboxes_label_checkmark:hover{
+    border: 1px solid #F9AF19;
+}

@@ -1,0 +1,10 @@
+.product__price_block-buttons button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.product__price_block-buttons {
+    display: flex;
+    cursor: pointer;
+}

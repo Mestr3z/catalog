@@ -1,0 +1,10 @@
+.details__text {
+    margin: 0;
+    color: #777;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 76px;
+    padding-right:7px;
+}

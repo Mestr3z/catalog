@@ -1,0 +1,10 @@
+.catalog__choice {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 230px;
+    padding: 0;
+    margin:0;
+    background-color: white;
+    box-sizing: border-box;
+}

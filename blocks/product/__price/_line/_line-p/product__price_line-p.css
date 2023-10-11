@@ -1,0 +1,10 @@
+.product__price_line-p {
+    margin: 0;
+    padding-top: 1px;
+    color: #777;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

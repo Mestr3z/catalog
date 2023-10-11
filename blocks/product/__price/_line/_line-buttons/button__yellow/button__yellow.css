@@ -1,0 +1,14 @@
+.button__yellow {
+    background-color: #F9AF19;
+    margin-top: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button__yellow:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s linear;
+}

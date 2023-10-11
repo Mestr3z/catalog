@@ -1,0 +1,13 @@
+.cards__sort_order_button-first {
+    border: none;
+    outline: none;
+    padding: 12px;
+    background: #FFF;
+    cursor: pointer;
+    background-color: #F9AF19;
+}
+
+.cards__sort_order_button-first:hover{
+    box-shadow: 0 0 0 1px #F9AF19;
+}
+

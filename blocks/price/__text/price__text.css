@@ -1,0 +1,8 @@
+.price__text {
+    max-width: 230px;
+    padding: 22px 22px 15px 22px;
+    border: 1px solid #ccc;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}

@@ -1,0 +1,11 @@
+.header__contacts_number {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+    white-space: nowrap;
+}

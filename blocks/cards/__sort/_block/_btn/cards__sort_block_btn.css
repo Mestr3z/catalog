@@ -1,0 +1,28 @@
+.cards__sort_block_btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #FFF;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:0;
+    transition: 0.3s linear;
+    padding: 10px 12px 11px 10px; 
+}
+
+.cards__sort_block_btn:first-child{
+    max-width:129px;
+    padding-left:10px;
+
+}
+
+.cards__sort_block_btn:hover{
+    background-color: #EEA206;
+}

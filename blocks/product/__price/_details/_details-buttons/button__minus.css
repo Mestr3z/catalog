@@ -1,0 +1,18 @@
+.button__minus {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #121212;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    padding: 4px 13px 4px 7px;
+    cursor: pointer;
+}
+
+.button__minus:hover{
+    opacity: .6;
+}

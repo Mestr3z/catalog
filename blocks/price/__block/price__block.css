@@ -1,0 +1,7 @@
+.price__block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom:14px;
+}

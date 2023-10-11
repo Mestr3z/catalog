@@ -1,0 +1,14 @@
+.button__black {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    width: 50%;
+}
+
+.button__black:hover{
+    transition: 0.6s linear;
+    background-color: #EEA206;
+}

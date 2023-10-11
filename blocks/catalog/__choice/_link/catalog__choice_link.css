@@ -1,0 +1,10 @@
+.catalog__choice_link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.catalog__choice_link:visited {
+    color: transparent;
+}
+
+

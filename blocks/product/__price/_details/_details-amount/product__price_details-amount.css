@@ -1,0 +1,7 @@
+.product__price_details-amount {
+    display: flex;
+    padding-bottom: 12px;
+    padding-top:8px;
+    align-items: center;
+    white-space: nowrap;
+}

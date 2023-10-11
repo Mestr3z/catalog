@@ -1,0 +1,13 @@
+.price__checkboxes_label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    color: #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

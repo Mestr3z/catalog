@@ -1,0 +1,6 @@
+.price__button{
+    border: none; 
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}

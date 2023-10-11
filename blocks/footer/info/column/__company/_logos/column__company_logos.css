@@ -1,0 +1,7 @@
+.column__company_logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:29px;
+    cursor: pointer;
+}

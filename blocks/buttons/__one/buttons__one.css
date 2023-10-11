@@ -1,0 +1,39 @@
+.buttons__one {
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border: none;
+    margin-right: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.buttons__one:hover {
+    border: 1px solid #F9AF19;
+}
+
+.buttons__one:hover::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 2px solid #F9AF19;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.buttons__one:active {
+    background-color: #F9AF19;
+}
+
+.buttons__one:active::before {
+    opacity: 1;
+}
+
+.buttons__one:first-child {
+    background-color: #F9AF19;
+}

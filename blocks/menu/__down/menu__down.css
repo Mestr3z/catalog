@@ -1,0 +1,5 @@
+.menu__down {
+    margin-left: 8px;
+    transition: transform 0.3 ease;
+}
+

@@ -1,0 +1,13 @@
+.cards__sort_order_button-second{
+    border:none;
+    outline:none;
+    padding:12px;
+    background: #FFF;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.cards__sort_order_button-second:hover{
+    box-shadow: 0 0 0 1px #F9AF19;
+}

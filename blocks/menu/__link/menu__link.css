@@ -1,0 +1,23 @@
+.menu__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:14px;
+    padding-right:14px;
+    transition: 0.3s linear;
+}
+
+
+
+.menu__link:hover{
+    background-color:#EEA206;;
+}
+
+

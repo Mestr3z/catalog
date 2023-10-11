@@ -1,0 +1,7 @@
+.cards__sort_block {
+    font-size: 0;
+    display: flex;
+    max-width: 274px;
+    border-radius: 3%;
+
+}

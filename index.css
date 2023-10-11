@@ -1,0 +1,1574 @@
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/mainpage/mainpage.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__content/header__content.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__logo/_name/header__logo_name.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__menu/_works/header__menu_works.css);
+@import url(./blocks/logos/logos.css);
+@import url(./blocks/text/text.css);
+@import url(./blocks/header/__contacts/header__contacts.css);
+@import url(./blocks/header/__contacts/_number/header__contacts_number.css);
+@import url(./blocks/header/__contacts/_mail/header__contacts_mail.css);
+@import url(./blocks/header/__cart/header__cart.css);
+@import url(./blocks/header/__cart/_logo/header__cart_logo.css);
+@import url(./blocks/header/__cart/_list/header__cart_list.css);
+@import url(./blocks/header/__cart/_list/_name/header__cart_list_name.css);
+@import url(./blocks/header/__cart/_list/_items/header__cart_list_items.css);
+@import url(./blocks/header/__cart/_list/_cost/header__cart_list_cost.css);
+@import url(./blocks/header/__cart/_list/_items/_text/header__cart_list_items_text.css);
+@import url(./blocks/header/__cart/_list/_cost/_currency/header__cart_list_cost_currency.css);
+
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/__list/menu__list.css);
+@import url(./blocks/menu/__item/menu__item.css);
+@import url(./blocks/menu/__text/menu__text.css);
+@import url(./blocks/menu/submenu/submenu.css);
+@import url(./blocks/menu/submenu/__li/submenu__li.css);
+@import url(./blocks/menu/submenu/__first-list/submenu__first-list.css);
+@import url(./blocks/menu/submenu/__second-list/submenu__second-list.css);
+@import url(./blocks/menu/__first-list/menu__first-list.css);
+@import url(./blocks/menu/__second-list/menu__second-list.css);
+@import url(./blocks/menu/__link/menu__link.css);
+@import url(./blocks/menu/__button/menu__button.css);
+@import url(./blocks/menu/__down/menu__down.css);
+
+@import url(./blocks/headers/headers.css);
+@import url(./blocks/headers/__name/headers__name.css);
+@import url(./blocks/headers/__choose/headers__choose.css);
+@import url(./blocks/headers/__choose/_main/headers__choose_main.css);
+@import url(./blocks/headers/__choose/_slash/headers__choose_slash.css);
+@import url(./blocks/headers/__choose/_inactive/headers__choose_inactive.css);
+
+@import url(./blocks/catalog/catalog.css);
+@import url(./blocks/catalog/__choice/catalog__choice.css);
+@import url(./blocks/catalog/__choice/_li/catalog__choice_li.css);
+@import url(./blocks/catalog/__choice/_link/catalog__choice_link.css);
+
+@import url(./blocks/price/price.css);
+@import url(./blocks/price/__heading/price__heading.css);
+@import url(./blocks/price/__text/price__text.css);
+@import url(./blocks/price/__block/price__block.css);
+@import url(./blocks/price/__block/_cost/price__block_cost.css);
+@import url(./blocks/price/__button/price__button.css);
+@import url(./blocks/price/__button/_image/price__button_image.css);
+@import url(./blocks/price/__range/price__range.css);
+@import url(./blocks/price/__range/_minmax/price__range_minmax.css);
+@import url(./blocks/price/__range/_minmax/_min/price__range_minmax_min.css);
+@import url(./blocks/price/__range/_minmax/_share/price__range_minmax_share.css);
+@import url(./blocks/price/__range/_slider/price__range_slider.css);
+@import url(./blocks/price/__checkboxes/price__checkboxes.css);
+@import url(./blocks/price/__checkboxes/_label/price__checkboxes_label.css);
+@import url(./blocks/price/__checkboxes/_label/_input/price__checkboxes_label_input.css);
+@import url(./blocks/price/__checkboxes/_label/_checkmark/price__checkboxes_label_checkmark.css);
+@import url(./blocks/price/__size/price__size.css);
+
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/cards/__sort/cards__sort.css);
+@import url(./blocks/cards/__sort/_block/cards__sort_block.css);
+@import url(./blocks/cards/__sort/_block/_btn/cards__sort_block_btn.css);
+@import url(./blocks/cards/__sort/_block/_text/cards__sort_block_text.css);
+@import url(./blocks/cards/__sort/_text/cards__sort_text.css);
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__container/card__container.css);
+@import url(./blocks/card/__name/card__name.css);
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/cards/__sort/_order/cards__sort_order.css);
+@import url(./blocks/cards/__sort/_order/_button-first/cards__sort_order_button-first.css);
+@import url(./blocks/cards/__sort/_order/_button-second/_button-second.css);
+
+
+@import url(./blocks/details/details.css);
+@import url(./blocks/details/__link/details__link.css);
+@import url(./blocks/details/__img/details__img.css);
+@import url(./blocks/details/__text/details__text.css);
+@import url(./blocks/buttons/buttons.css);
+@import url(./blocks/buttons/__one/buttons__one.css);
+
+@import url(./blocks/product/__price/product__price.css);
+@import url(./blocks/product/__price/_block/product__price_block.css);
+@import url(./blocks/product/__price/_block/_block-amount/product__price_block-amount.css);
+@import url(./blocks/product/__price/_block/_block-buttons/product__price_block-buttons.css);
+@import url(./blocks/product/__price/_button/product__price_button.css);
+@import url(./blocks/product/__price/_button/_button-img/product__price_button-img.css);
+@import url(./blocks/product/__price/_button/_button-number/product__price_button-number.css);
+@import url(./blocks/product/__price/_button/_button-question/product__price_button-question.css);
+@import url(./blocks/product/__price/_button/_button-text/product__price_button-text.css);
+@import url(./blocks/product/__price/_button/_question-img/product__price_question-img.css);
+@import url(./blocks/product/__price/_details/product__price_details.css);
+@import url(./blocks/product/__price/_details/_details-amount/product__price_details-amount.css);
+@import url(./blocks/product/__price/_details/_details-buttons/button__minus.css);
+@import url(./blocks/product/__price/_details/_details-buttons/button__plus.css);
+@import url(./blocks/product/__price/_details/_details-buttons/product__price_details-buttons.css);
+@import url(./blocks/product/__price/_details/_details-cost/product__price_details-cost.css);
+@import url(./blocks/product/__price/_details/_details-ruble/product__price_details-ruble.css);
+@import url(./blocks/product/__price/_header/product__price_header.css);
+@import url(./blocks/product/__price/_line/product__price_details-line.css);
+@import url(./blocks/product/__price/_line/product__price_line.css);
+@import url(./blocks/product/__price/_line/_line-bold/product__price_line-bold.css);
+@import url(./blocks/product/__price/_line/_line-buttons/product__price_line-buttons.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__black/button__black.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__black/text__black/text__black.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__gray/button__gray.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__gray/text__gray/text__gray.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__yellow/button__yellow.css);
+@import url(./blocks/product/__price/_line/_line-buttons/button__yellow/text__yellow/text__yellow.css);
+@import url(./blocks/product/__price/_line/_line-p/product__price_line-p.css);
+@import url(./blocks/product/__price/_shipped/product__price_shipped.css);
+@import url(./blocks/product/__price/_shipped/_img/product__price_shipped_img.css);
+@import url(./blocks/product/__price/_shipped/_text/product__price_shipped_text.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__credits/footer__credits.css);
+@import url(./blocks/footer/__credits/_text/footer__credits_text.css);
+@import url(./blocks/footer/__credits/_text/_text-personaldata/footer__credits_text-personaldata.css);
+@import url(./blocks/footer/__credits/_text/_text-save/footer__credits_text-save.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/info/info.css);
+@import url(./blocks/footer/info/column/column__product.css);
+@import url(./blocks/footer/info/column/__about/column__about.css);
+@import url(./blocks/footer/info/column/__company/column__company.css);
+@import url(./blocks/footer/info/column/__company/_contacts/column__company_contacts.css);
+@import url(./blocks/footer/info/column/__company/_image/column__company_image.css);
+@import url(./blocks/footer/info/column/__company/_logos/column__company_logos.css);
+@import url(./blocks/footer/info/column/__company/_secondimage/column__company_secondimage.css);
+@import url(./blocks/footer/info/column/__company/_text/column__company_text.css);
+@import url(./blocks/footer/info/column/__company/_textright/column__company_textright.css);
+@import url(./blocks/footer/info/column/__header/column__header.css);
+@import url(./blocks/footer/info/column/__info/column__info.css);
+@import url(./blocks/footer/info/column/__products/column__products.css);
+@import url(./blocks/footer/info/column/__products/_list/column__products_list.css);
+
+
+
+.header__logo_link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card__name_p {
+    margin: 0;
+    padding: 23px 15px 22px 24px;
+}
+
+
+.card__image-link {
+    cursor: pointer;
+}
+
+.product__price_button-number:focus {
+    text-decoration: underline;
+    color: #121212;
+}
+
+
+
+
+
+.product__price_button:focus {
+    text-decoration: underline;
+    color: #121212;
+}
+
+
+.noUi-connect {
+    background: none;
+    background-color: #F9AF19;
+}
+
+.filter-price__slider {
+
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+.details__text-price {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.details__red-text {
+    margin: 0;
+    color: #F50000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 24px;
+}
+
+.column__company_contacts-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.column__company_link {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.product {
+    display: flex;
+ 
+    
+}
+
+
+
+.text__card_p {
+    margin: 0;
+    margin-right:40px;
+    margin-bottom: 23px;
+    color: #666;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:20px;
+    max-width: 448px;
+}
+
+.text__card {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.text__card_link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Roboto;
+    display: flex;
+}
+
+.text__sort {
+    border-right: 1px solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+.ammount {
+    border-top: none;
+    padding: 30px 25px 0px 22px;
+    box-sizing: border-box;
+    width:218px;
+}
+
+.card__img {
+    width: 134px;
+    height: 120px;
+    padding: 26px 37px 30px 39px;
+}
+
+.product__price_button-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.product__price_button-img{
+    width:20px;
+}
+
+.cost {
+    padding: 0;
+}
+
+.block {
+    padding: 0;
+}
+
+.left__menu{
+    display: block;
+}
+
+.text__card_img {
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.cards__sort_order_button-first,
+.cards__sort_order_button-second {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.popup {
+    position: absolute;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 33px 36px 46px 36px;
+    border-radius: 5px;
+    width: 310px;
+    box-sizing: border-box;
+
+}
+
+.popup-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.popup__title {
+    margin: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.popup__text {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.popup__input_title {
+    margin: 0;
+    color: #222;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.popup__input {
+    border: 1px solid #CCC;
+    padding: 15px 20px 16px 19px;
+    color: #7B7B7B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+
+.popup__input_title:nth-child(6) {
+    margin-top: 20px;
+}
+
+.popup__text_rules {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.popup__link {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.popup__button {
+    padding: 16px 17px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.popup__button:disabled{
+    background-color: #ccc;
+    cursor: default;
+}
+
+.popup__close-btn {
+    position: absolute;
+    border: none;
+    outline: none;
+    background: url(./images/close.svg);
+    width: 25px;
+    height: 25px;
+    top: -34px;
+    left: 92%;
+    cursor: pointer;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.gazobeton {
+    background-color: #FFF;
+    max-width: 230px;
+
+
+}
+
+.gazobeton__text {
+    padding: 22px 28px 20px 28px;
+    white-space: nowrap;
+    margin: 0;
+    border-bottom: 1px solid #E9E9E9;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gazobeton__text {
+    transition: 0.3s linear;
+}
+
+.gazobeton__text:hover {
+    background-color: #EEA206;
+}
+
+.gazobeton__link {
+    text-decoration: none;
+}
+
+
+.left-menu {
+    max-width: 230px;
+}
+
+.left-menu_text {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 33px;
+}
+
+.adjust__price_container_dash {
+    margin: 0;
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+.adjust__price_container {
+    display: block;
+}
+
+.adjust__price {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: border-box;
+    max-width: 230px;
+    padding: 22px 26px 15px 22px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.adjust {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.adjust__price_input {
+    text-align: center;
+    margin: 0;
+    padding: 6px;
+    border: 1px solid #C1C1C1;
+    color: #777;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    outline: none;
+}
+
+.adjust__price_img {
+    padding-top: 2px;
+
+}
+
+.row{
+    width: 230px;
+}
+
+.container {
+    padding: 22px;
+    border-bottom: 1px solid #E9E9E9;
+
+}
+
+.adjust__price_container {
+    flex-direction: column;
+    padding: 0px 26px 15px 22px;
+}
+
+.adjust__price_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#price_container{
+    display: block;
+}
+
+.density__button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: border-box;
+    max-width: 230px;
+    padding: 22px 26px 15px 22px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    border-top: 1px solid #E9E9E9;
+}
+
+
+
+
+
+
+.density {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-sizing: border-box;
+    font-size: 0;
+
+}
+
+#density_block {
+    display: none;
+}
+
+.size__button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: border-box;
+    max-width: 230px;
+    padding: 22px 26px 15px 22px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    border-top: 1px solid #E9E9E9;
+}
+
+.size {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#size_block {
+    display: none;
+}
+
+.bestprice {
+    background-color: #FFF;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.bestprice__first-title {
+    margin: 0;
+    color: #111;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 900;
+
+}
+
+.bestprice__second-title {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+
+
+.cards__flex .card__container {
+    margin-top: 25px;
+}
+
+
+
+.cards__sort-btns_menu {
+    display: flex;
+    padding: 10px 13px 9px 15px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    max-width: 82px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.cards__sort-btns_menu_text {
+    margin: 0;
+    margin-left: 7px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.burger {
+    margin-top: 1px;
+    width: 13px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+}
+
+.burger.cross .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.burger.cross .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.cross .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+.cards__sort-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__burger.cross .header__bar:nth-child(1) {
+    transform: translateY(6.65px) rotate(45deg);
+}
+
+.header__burger.cross .header__bar:nth-child(2) {
+    opacity: 0;
+}
+
+.header__burger.cross .header__bar:nth-child(3) {
+    transform: translateY(-6.65px) rotate(-45deg);
+}
+
+
+.cards__sort-btns_container{
+    display: flex;
+}
+
+.filter{
+    display: flex;
+    padding: 9px 11px 10px 13px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    max-width: 82px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    margin-left:10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.price-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 9px 15px 10px 13px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.price__btn_text{
+    margin: 0;
+    margin-right: 6px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.hide{
+    display: none;
+}
+
+.header__icons{
+    display: none;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: flex-end;
+}
+
+.fixed-menu{
+    display: none;
+}
+
+.header__icon .icn{
+    display: none;
+}
+
+.column__products{
+    display: block;
+}
+
+.button__number {
+    color: #121212;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bestprice__link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product__price_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width:218px;
+}
+
+
+.menu__flex{
+    display: flex;
+}
+
+@media (max-width: 1280px) {
+
+
+    .menu__link {
+        font-size: 10px;
+    }
+
+
+    .menu__button {
+        white-space: nowrap;
+        font-size: 10px;
+        padding: 10px 40px 10px;
+        margin-left: 5px;
+    }
+
+    .header__cart {
+        margin-left: 28px;
+    }
+
+    .header__menu {
+        margin-right: 25px;
+    }
+
+    .header__logo_name {
+        margin-right: 35px;
+    }
+
+    .menu__text {
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    .menu__link {
+        white-space: nowrap;
+    }
+
+    .text {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mainpage {
+        box-sizing: border-box;
+        max-width: 960px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .logos {
+        width: 27px;
+        height: 27px;
+    }
+
+    .column__info {
+        margin-right: 80px;
+    }
+
+    .column__about {
+        margin-right: 80px;
+    }
+
+    .column__product {
+
+        margin-left: 27px;
+
+    }
+
+    .column__company {
+        margin-right: 27px;
+    }
+
+    .footer__credits_text {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .card__name_p {
+        max-width: 180px;
+    }
+   
+}
+
+
+
+
+
+
+@media (max-width: 1100px) {
+
+    .cards__sort_block{
+        margin-right:30px;
+    }
+
+    .product{
+        flex-direction: column;
+    align-items: center;
+    }
+  
+    .product__price_details{
+        width:100%;
+    }
+
+
+    .text__sort{
+        border:none;
+    }
+
+    .text__card_p{
+        max-width: 300px;
+        margin-right:0;
+    }
+
+    .header__content {
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 10px solid #EB9D00
+    }
+
+    .card {
+        grid-gap: 20px;
+    }
+
+    .cards {
+        margin-left: 20px;
+    }
+
+    .header__cart_list_cost {
+        white-space: nowrap;
+    }
+
+    .header__contacts_number {
+        font-size: 12px;
+    }
+
+    .header__contacts_mail {
+        font-size: 12px;
+    }
+
+    .header__logo_name {
+        width: 140px;
+        margin-right: 0;
+    }
+
+    .header__logo {
+        width: 40px;
+    }
+
+    .header__menu {
+        margin-right: 20px;
+    }
+
+    .header__contacts{
+        margin-top:26px;
+        margin-left:20px;
+        margin-right:26px;
+    }
+
+    .logos {
+        margin-right: 10px;
+    }
+
+    
+
+    .header__cart {
+        padding: 18px 14px;
+        margin-left: 0;
+    }
+
+    .header__cart_list_cost {
+        font-size: 12px;
+    }
+
+    .header__cart_list_cost_currency {
+        font-size: 12px;
+    }
+
+    .header__cart_list_items {
+        font-size: 12px;
+    }
+
+    .header__cart_list_items_text {
+        font-size: 12px;
+    }
+
+    .header__cart_list_name {
+        font-size: 10px;
+    }
+
+   
+
+    .menu {
+        display: none;
+        width: 100%;
+        height: 10px;
+        color: rgb(249, 175, 25);
+    }
+
+    .header__logo_link {
+        margin-left: 15px;
+    }
+
+    .column__header {
+        font-size: 18px;
+    }
+
+    .column__products_list {
+        font-size: 11px;
+    }
+
+    .column__company_text {
+        font-size: 13px;
+    }
+
+    .column__company_link {
+        font-size: 13px;
+    }
+
+    .column__company_image {
+        width: 50px;
+    }
+
+    .column__company_secondimage {
+        width: 127px;
+    }
+
+    .column__company_textright {
+        font-size: 13px;
+    }
+
+    .column__info {
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+
+    .column__product {
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+
+    .column__about {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .column__company {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 980px){
+   .mainpage{
+    margin-right:20px;
+    margin-left:20px;
+   }
+
+   .card{
+    grid-gap: 17px;
+   }
+}
+
+@media screen and (max-width: 915px) {
+
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .catalog {
+        justify-content: unset;
+    }
+
+    .cards__sort_text{
+        padding-right:20px;
+    }
+    .cards__sort_block{
+        margin-right:31px;
+    }
+}
+
+@media (min-width: 769px) {
+    .row {
+        display: block !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .cards__menu_filter-width{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;  
+    }
+
+    .price-btn{
+        max-height: 33px;
+    }
+
+    .card__menu-width{
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    .header__menu{
+        margin:0;
+    }
+
+    .menu__flex{
+        margin: 0 auto;
+    }
+
+
+
+    .left-menu{
+        display: flex;
+    }
+    .header__cart{
+        margin-left:21px;
+    }
+
+    .cards{
+        margin-left:0;
+    }
+
+    .card {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .catalog {
+        justify-content: unset;
+    }
+
+    .gazobeton{
+        display: none;
+        flex-direction: column;
+    }
+
+    .gazobeton__text{
+        font-size: 10px;
+        padding:5px;
+    }
+
+    .bestprice{
+        display: none;
+    }
+
+    .price__checkboxes_label{
+        font-size:13px;
+    }
+
+    .density__button{
+        padding: 22px 26px 15px 22px;
+    }
+
+    .size__button{
+        padding: 22px 26px 15px 22px;
+    }
+
+    .price__checkboxes{
+        padding:0
+    }
+
+    .left-menu_text{
+        display: none;
+    }
+
+    .left-menu{
+        max-width: 450px;
+    }
+
+    .row{
+        display: none;
+        flex-direction: column;
+        max-width: 230px;
+    }
+
+    .flex{
+        margin-bottom:20px;
+    }
+
+    .cards__sort{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .header__logo_name {
+        width: 100px;
+    }
+    .header__logo {
+        width: 35px;
+    }
+    
+    .header__menu_works{
+        display: none;
+    }
+
+    .logos{
+        display: none;
+    }
+    .header__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 15px;
+        cursor: pointer;
+        margin-top:35px;
+        margin-left: 18px;
+        margin-right:18px;
+    }
+    
+    .bar {
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+
+    .header__bar{
+        background-color: #fff;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 231px; 
+        right: -1px; 
+        width: 197px;
+        border: 1px solid #ccc;
+        z-index: 10; 
+    }
+
+    .menu__item{
+        padding:0;      
+    }
+    
+    .menu__list {
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+        background-color: #000;
+    }
+    
+    .menu__down{
+        filter: invert(1);
+    }
+
+    .menu__text {
+        padding: 10px;
+        padding-left:0;
+        padding-right:0;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    
+    .menu__link:hover, .menu__text:hover {
+        background-color: #eee;
+    }
+    
+ 
+    .menu__link{
+        color: #fff;
+        padding-left:0;
+        padding-right:0;
+    }
+    .menu__link:active{
+        color:#fff;
+    }
+    .header__icons{
+        display: block;
+    }
+    .header__icons{
+        margin-top:26px;
+    }
+    .header__contacts{
+        margin-top:26px;
+        margin-left:10px;
+    }
+}
+
+
+@media screen and (max-width: 670px){
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+   
+ 
+    .fixed-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.95); 
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        z-index: 1000; 
+        border-top: 10px solid #EB9D00;
+    }
+    
+    
+    .menu__calculator{
+        display: flex;
+        box-sizing: border-box;
+        background-color: #000000;
+        width:50%;
+        padding: 11px 27px 14px 0;
+        justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    
+    .menu__calculator_container_text {
+        margin: 0;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .menu__calculator_img{
+        margin-right:13px;
+    }
+    
+    .menu-item{
+        display: flex;
+        background-color: #2B2B2B;
+        width:50%;
+        padding:12px 0 13px 0;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    .menu__cart{
+        display: flex;
+        text-decoration: none
+    }
+    
+    .menu__cart_list_name {
+        margin: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .menu__cart_list_items {
+        margin: 0;
+        color: #F9AF19;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    .menu__cart_list_cost {
+        margin:0;
+        color:#fff;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    .menu__cart_logo {
+        width: 31px;
+        height: 31px;
+        margin-right:11px;
+    }
+    .header__cart{
+        display: none;
+    }
+    .header__contacts{
+        display: none;
+    }
+    .header__icons{
+        margin-top:3px;
+        white-space: nowrap;
+
+    }
+    .header__burger{
+        margin-top: 8px;
+        margin-left:10px;
+    }
+   .menu{
+    top:213px;
+   }
+   .header__icons_img .icn{
+    display: block;
+   }
+ 
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__icons_img {
+    width: 23px;
+    height: 23px;
+}
+
+
+@media screen and (max-width:574px){
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width:100%;
+    }
+    .catalog{
+        display: flex;
+        justify-content: center;
+    }
+    .cards{
+        margin-left:0;
+    }
+   
+ 
+    .card__name_p {
+        max-width: 205px;
+    }
+    .card__image{
+        padding-left: 75px;
+    }
+    .column__products {
+        display: none;
+    }
+    
+    .column__header.active + .column__products {
+        display: block;
+        cursor:pointer;
+    }
+
+    .column__product{
+        margin:0;
+    }
+    .info {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding:40px;
+        align-items: center;
+       
+    }
+    .column__about{
+        margin:0;
+    }
+    .column__info{
+        margin:0;
+    }
+    .column__company_logos{
+        justify-content: unset;
+        padding-bottom: 5px;
+    }
+    .column__company_contacts{
+        justify-content: unset;
+        margin-bottom: 40px;
+    }
+    .column__company{
+        margin:0;
+        order: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column__company_text:first-child{
+        margin-right:30px;
+    }
+
+    .column__header{
+        margin-top:20px;
+        text-align: center;
+    }
+    .column__products{
+        margin-left:0;
+    }
+    .footer__link{
+        list-style-type: none;
+        text-align: center;
+    }
+    .column__products_list {
+        font-size: 13px;
+    }
+    .column__company_text {
+        font-size: 15px;
+    }
+    .column__company_link {
+        font-size: 15px;
+    }
+    .column__company_secondimage {
+        width: 170px;
+    }
+    .footer__down{
+        filter:invert(1)
+    }
+   
+}
